@@ -1,6 +1,6 @@
 import {OptionImage, OptionListItem, GameOptionButton} from './styledComponents'
 
-const GameOptions = prop => {
+const GameOptions = props => {
   const {optionDetails, onClickSetUserChoice} = props
   const {image, id} = optionDetails
   const userChoice = () => {
